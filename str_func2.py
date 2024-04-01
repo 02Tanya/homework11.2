@@ -4,7 +4,7 @@ def get_lowercase_phrase():
     return phrase.lower()
 
 
-def get_first_letter_up():
+def get_first_worldletter_up():
     '''Повышает регистр первой буквы каждого слова'''
     phrase = input('Введите фразу или предложение: ')
     return phrase.title()
